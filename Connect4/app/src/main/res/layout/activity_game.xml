@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.milnow5555.connect4.Activities.GameActivity"
+    android:background="@drawable/main_gradient">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <GridLayout
+            android:id="@+id/grid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:columnCount="7"
+            android:orientation="horizontal"
+            android:rowCount="6">
+
+            <ImageView
+                android:id="@+id/img00"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img01"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img02"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton" />
+
+            <ImageView
+                android:id="@+id/img03"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img04"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img05"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img06"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img10"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img11"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img12"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img13"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img14"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img15"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img16"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img20"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img21"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img22"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img23"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img24"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img25"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img26"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img30"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img31"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img32"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img33"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img34"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img35"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img36"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img40"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img41"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img42"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img43"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img44"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img45"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img46"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img50"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img51"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img52"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img53"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img54"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img55"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+
+            <ImageView
+                android:id="@+id/img56"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|top"
+                android:src="@drawable/free4all0"
+                android:onClick="insertButton"/>
+        </GridLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/reset_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_gradient"
+                android:text="@string/restart_button"
+                android:onClick="reset"
+                android:textAppearance="@style/main_menu_button_style" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/number_of_turn"
+                android:textAppearance="@style/main_menu_button_style"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/turnNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textAppearance="@style/main_menu_button_style"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/actual_player"
+                android:textAppearance="@style/main_menu_button_style"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:id="@+id/playerTurnColor"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/bluebutton" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
